@@ -21,7 +21,8 @@ import org.osgi.service.component.annotations.Component;
 		"javax.portlet.init-param.view-template=/view.jsp",
 		"javax.portlet.name=" + CssAndJsPortletKeys.CssAndJs,
 		"javax.portlet.resource-bundle=content.Language",
-		"javax.portlet.security-role-ref=power-user,user"
+		"javax.portlet.security-role-ref=power-user,user",
+		"com.liferay.portlet.header-portlet-css=/css/main.css"
 	},
 	service = Portlet.class
 )

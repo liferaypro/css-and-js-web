@@ -1,0 +1,4 @@
+Bundle-Name: css-and-js-web
+Bundle-SymbolicName: com.yowshu.demo.web
+Bundle-Version: 1.0.0
+Export-Package: com.yowshu.demo.web.constants
